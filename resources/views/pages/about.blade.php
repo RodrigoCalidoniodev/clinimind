@@ -1,0 +1,1 @@
+<p>Vista para definir el about</p>
