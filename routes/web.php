@@ -14,9 +14,10 @@ use App\Http\Middleware\Admin;
 Route::get('/', HomeController::class)->name('home');
 
 // Pages routesRoute::get('/about', [PageController::class, 'about'])->name('about');
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/how-it-works', [PageController::class, 'howItWorks'])->name('how-it-works');
 Route::get('/testimonials', [PageController::class, 'testimonials'])->name('testimonials');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 
 
 // HourController routes
